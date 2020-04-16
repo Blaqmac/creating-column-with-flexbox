@@ -1,0 +1,67 @@
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+
+
+body {
+    margin: 0;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+header {
+    background-color: #588C94;
+    color: white;
+    text-align: center;
+    padding: 128px 0;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3em;
+}
+
+.my-skills {
+    background-color: #1D3C41;
+    color: white;
+    padding: 64px 0px 32px 0px;
+    text-align: center;
+}
+
+.columns {
+    width: 80%; 
+    display: flex;
+    margin: 0px auto;
+}
+
+.column {
+    margin: 1em;
+    padding: 1em;
+    background-color: #588C94;
+    border-radius: 8px;
+
+
+}
+
+
